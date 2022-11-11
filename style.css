@@ -6,6 +6,7 @@ body {
 
 main {
     max-width: 35%;
+    margin: 5px auto;
 }
 
 h1 {
