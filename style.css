@@ -2,6 +2,7 @@
 
 body {
     font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 main {
@@ -9,7 +10,7 @@ main {
     margin: 5px auto;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -52,4 +53,8 @@ a {
     color: #0575e6;
     font-weight: 600;
     text-align: center;
+}
+
+.list-group {
+    margin-bottom: 2rem!important;
 }
