@@ -170,3 +170,7 @@ a:hover {
 a:visited {
     color: #999;
 }
+
+.layer-content.element_1587187714568:hover {
+    transform: scale(1.3);
+}
