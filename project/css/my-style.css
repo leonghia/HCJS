@@ -60,8 +60,17 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
 
+section {
+    position: relative;
+}
+
 main {
     margin-bottom: 15rem;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
 }
 
 .header-container {
@@ -676,6 +685,135 @@ a {
     text-align: center;
     margin-top: 0;
 }
+
+.catch-phrase {
+    position: absolute;
+    left: 1138px;
+    top: 189px;
+    overflow: visible;
+    width: 500px;
+}
+
+.catch-phrase-small {
+    position: absolute;
+    left: -2px;
+    top: 0px;
+    width: auto;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.catch-phrase-big {
+    position: absolute;
+    top: 50px;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    height: auto;
+    width: auto;
+    text-transform: capitalize;
+}
+
+.catch-phrase-button {
+    position: absolute;
+    top: 260px;
+    background-color: rgb(255, 72, 128);
+    height: auto;
+    width: auto;
+    padding-left: 40px;
+    border-radius: 15px;
+    padding-right: 40px;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+    opacity: 1;
+    visibility: visible;
+}
+
+.catch-phrase-button a {
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+.welcome {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 0;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    background-image: url(../images/home-1-28.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.welcome-container {
+    max-width: 1290px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.section-heading {
+    line-height: 1.2em;
+    font-size: 3rem;
+    color: #393d72;
+    position: relative;
+    letter-spacing: -.01em;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.heading-underline {
+    text-align: center;
+}
+
+.underline-icon {
+    color: #ff4880;
+    border-color: #ff4880;
+    vertical-align: middle;
+    max-width: 110px;
+    max-height: 110px;
+    display: inline-block;
+    line-height: 1;
+    font-size: 50px;
+    text-align: center;
+}
+
+.underline-icon svg {
+    fill: #ff4880;
+    transform: rotate(0deg);
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+}
+
+.welcome-cols {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .welcome-col {
+        width: 50%;
+    }
+}
+
+.welcome-col {
+    position: relative;
+}
+
 
 
 
