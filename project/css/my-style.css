@@ -456,7 +456,7 @@ a {
 .slider {
     background-color: transparent;
     background-repeat: no-repeat;
-    background-image: url(http://demo2.themelexus.com/petzen/wp-content/uploads/2020/05/revolution-02.jpg);
+    background-image: url(../images/revolution-02.jpg);
     background-size: cover;
     background-position: 50% 50%;
     width: 100%;
@@ -470,7 +470,7 @@ a {
 }
 
 .footer-container {
-    background-image: url(http://demo2.themelexus.com/petzen/wp-content/uploads/2020/04/footer-bg-01.png);
+    background-image: url(../images/footer-bg-01.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
