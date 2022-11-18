@@ -1,13 +1,19 @@
-/* Linking Google fonts with font Monsterrat */
+/*
+This is the official CSS file for template. Just view only. No need to make changes here.
+Header CSS: line 80.
+Footer CSS: line 466.
+ */
+
+/* Importing Google Fonts with font Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* Reset user-agent stylesheet already include in link head */
-
 *, *:after, *:before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+/* General styling */
 html {
     padding: 0;
     margin: 0;
@@ -21,8 +27,6 @@ html {
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-
-/* Main CSS goes below */
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -75,7 +79,6 @@ svg {
 
 
 /* CSS for Header */
-
 .header-container {
 
 }
@@ -461,248 +464,7 @@ a {
     display: inline-block;
 }
 
-/* CSS for main */
-
-.main-container {
-
-}
-
-/* CSS for Slider section */
-
-.catch-phrase {
-    position: absolute;
-    left: 1138px;
-    top: 189px;
-    overflow: visible;
-    width: 500px;
-}
-
-.catch-phrase-small {
-    position: absolute;
-    left: -2px;
-    top: 0px;
-    width: auto;
-    text-transform: capitalize;
-    font-weight: 700;
-    font-size: 20px;
-    color: #fff;
-}
-
-.catch-phrase-big {
-    position: absolute;
-    top: 50px;
-    font-weight: 800;
-    font-size: 70px;
-    line-height: 85px;
-    color: rgb(255, 255, 255);
-    opacity: 1;
-    height: auto;
-    width: auto;
-    text-transform: capitalize;
-}
-
-.catch-phrase-button {
-    position: absolute;
-    top: 260px;
-    background-color: rgb(255, 72, 128);
-    height: auto;
-    width: auto;
-    padding-left: 40px;
-    border-radius: 15px;
-    padding-right: 40px;
-    filter: blur(0px) grayscale(0%) brightness(100%);
-    opacity: 1;
-    visibility: visible;
-}
-
-.catch-phrase-button a {
-    text-transform: uppercase;
-    line-height: 50px;
-    font-weight: 600;
-    font-size: 13px;
-    color: rgb(255, 255, 255);
-}
-
-.slider {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-image: url(../images/revolution-02.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 100%;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    visibility: inherit;
-    z-index: 20;
-    min-height: 700px;
-
-    /* trim image */
-}
-
-/* CSS for Welcome section */
-
-.welcome {
-    margin-top: 120px;
-    margin-bottom: 120px;
-    padding: 0;
-    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-    background-image: url(../images/home-1-28.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 700px;
-}
-
-.welcome-container {
-    max-width: 1290px;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-}
-
-.section-heading {
-    line-height: 1.2em;
-    font-size: 3rem;
-    color: #393d72;
-    position: relative;
-    letter-spacing: -.01em;
-    font-weight: 800;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 0;
-}
-
-.heading-underline {
-    text-align: center;
-}
-
-.underline-icon {
-    color: #ff4880;
-    border-color: #ff4880;
-    vertical-align: middle;
-    max-width: 110px;
-    max-height: 110px;
-    display: inline-block;
-    line-height: 1;
-    font-size: 50px;
-    text-align: center;
-}
-
-.underline-icon svg {
-    fill: #ff4880;
-    transform: rotate(0deg);
-    width: 1em;
-    height: 1em;
-    position: relative;
-    display: block;
-}
-
-.welcome-cols {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    margin-top: 50px;
-    margin-bottom: 0;
-}
-
-@media screen and (min-width: 768px) {
-    .welcome-col {
-        width: 50%;
-    }
-}
-
-.welcome-col {
-    position: relative;
-}
-
-.welcome-col-left {
-    padding: 0 15px 0 30px;
-}
-
-.welcome-col-right {
-    padding: 0 0 0 90px;
-}
-
-.welcome-col-right p {
-    line-height: 1.875em;
-    margin-bottom: 20px;
-    padding: 0 0 20px;
-    background-color: #fff;
-    font-weight: 500;
-}
-
-.welcome-col-right ul {
-    margin: 0 0 35px;
-    background-color: #fff;
-    padding: 0;
-    list-style-type: none;
-}
-
-.welcome-col-right ul li {
-    padding-bottom: calc(15px/2);
-    text-transform: uppercase;
-}
-
-.welcome-col-right .icon-list-icon i {
-    color: #ff4880;
-    font-size: 16px;
-    line-height: 26px;
-    width: 1.25em;
-}
-
-.welcome-col-right .icon-list-text {
-    padding-left: 10px;
-    -ms-flex-item-align: center;
-    align-self: center;
-    color: #393d72;
-    font-weight: 800;
-}
-
-.welcome-button-container {
-    width: 100%;
-}
-
-/* CSS styling for CTA Button */
-
-.cta-button {
-    color: #fff;
-    background-color: #ff4880;
-    border-color: #ff4880;
-    padding: .8125rem 2.5rem;
-    font-size: .875rem;
-    line-height: 1.6;
-    border-radius: 15px;
-    display: inline-block;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    letter-spacing: 0rem;
-}
-
-.welcome-col-left .item__svg {
-    position: relative;
-    display: block;
-    height: auto;
-    margin: 0 auto;
-}
-
-.welcome-col-left .item__deco, .welcome-col-left .item__clipdeco, .welcome-col-left .item__clippath, .welcome-col-left .item__img {
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    fill: #ebebeb;
-}
-
-/* CSS for footer */
-
+/* CSS for Footer */
 .footer-container {
     background-image: url(../images/footer-bg-01.png);
     background-repeat: no-repeat;
@@ -809,17 +571,17 @@ a {
 }
 
 
- #footer-12 ul li {
+#footer-12 ul li {
     padding-bottom: calc(10px/2);
     font-size: 14px;
     /* padding-left: 10px; */
     align-self: center;
-     display: flex;
-     -webkit-box-align: start;
-     -ms-flex-align: start;
-     align-items: flex-start;
-     position: relative;
-     margin-top: calc(10px/2);
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    margin-top: calc(10px/2);
 }
 
 
@@ -849,7 +611,7 @@ a {
     margin-bottom: 1.3rem;
 }
 
-#footer-32 input[type=text] {
+#footer-32 input[type=email] {
     border-radius: 15px;
     background: #f5efe7;
     border: 1px solid #cccccc;
@@ -910,24 +672,3 @@ a {
     text-align: center;
     margin-top: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
