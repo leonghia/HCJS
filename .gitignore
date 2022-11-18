@@ -4,3 +4,5 @@
 /on-class/style.css
 /.idea/vcs.xml
 /.idea/workspace.xml
+._*
+.idea
