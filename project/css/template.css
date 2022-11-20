@@ -52,6 +52,15 @@ body, button, input, select, textarea {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    letter-spacing: -.05rem;
+    /* padding: 1em 0 0; */
+    margin: 0 0 .5em;
+    font-weight: 700;
+    color: #393d72;
+}
+
 .body-inner {
     position: relative;
     word-wrap: break-word;
@@ -69,7 +78,7 @@ section {
 }
 
 main {
-    margin-bottom: 15rem;
+
 }
 
 svg {
