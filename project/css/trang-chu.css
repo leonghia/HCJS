@@ -1102,24 +1102,36 @@ section.contact-down {
     border-radius: 15px;
     margin-bottom: 20px;
     width: 100%;
-    color: #afb5bb;
+    color: #333;
     font-size: 1rem;
     border: 1px solid #f6f6f6;
     background-color: #f6f6f6;
     padding: .9rem 1.3rem;
+    font-weight: 500;
 }
 
 .contact-form-row textarea {
     border-radius: 15px;
     margin-bottom: 20px;
     width: 100%;
-    color: #afb5bb;
+    color: #333;
     font-size: 1rem;
     max-width: 100%;
     border: 1px solid #f6f6f6;
     background-color: #f6f6f6;
     padding: .9rem 1.3rem;
     line-height: 1.67;
+    font-weight: 500;
+}
+
+.contact-form-row textarea::placeholder {
+    color: #afb5bb;
+    font-weight: 400;
+}
+
+.contact-form-row textarea::-ms-input-placeholder {
+    color: #afb5bb;
+    font-weight: 400;
 }
 
 .contact-form-row input[type=submit] {
@@ -1145,12 +1157,12 @@ section.contact-down {
 
 .contact-form-row input::placeholder, .contact-form-wrapper textarea::placeholder {
     color: #afb5bb;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .contact-form-row input::-ms-input-placeholder, .contact-form-row textarea::-ms-input-placeholder {
     color: #afb5bb;
-    font-width: 500;
+    font-width: 400;
 }
 
 .contact-info-wrapper {
