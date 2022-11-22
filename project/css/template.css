@@ -475,11 +475,11 @@ a {
 
 /* CSS for Footer */
 .footer-container {
-    background-image: url(../images/footer-bg-01.png);
+    background-image: url(../images/footer-bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 500px;
-    padding: 150px 30px 0;
+    padding: 260px 30px 0;
 }
 
 .footer-upper {
@@ -533,12 +533,21 @@ a {
 }
 
 #footer-03 a {
-    background-color: #fff;
+    background-color: #ebebeb;
     font-size: 14px;
     padding: .8em;
     border-radius: 50%;
     margin-right: calc(5px/2);
     margin-left: calc(5px/2);
+    cursor: pointer;
+}
+
+#footer-03 a:hover {
+    background-color: #ff4880;
+}
+
+#footer-03 a:hover i {
+    color: #fff;
 }
 
 #footer-03 a i {
@@ -555,6 +564,29 @@ a {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
+}
+
+button {
+    border-radius: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    vertical-align: middle;
+    letter-spacing: 0rem;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+
+button.cta-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 20px rgb(0 0 0 / 20%);
+}
+
+button:hover {
+    background-color: #ffae00;
+    color: #fff;
 }
 
 .footer-col h3 {
@@ -622,7 +654,7 @@ a {
 
 #footer-32 input[type=email] {
     border-radius: 15px;
-    background: #f5efe7;
+    background: rgba(255,255,255,.16);
     border: 1px solid #cccccc;
     width: 100%;
     padding-top: 12px;
@@ -635,6 +667,7 @@ a {
     font-size: .875rem;
     line-height: 1.5;
     font-weight: 500;
+    margin-bottom: 1.5rem;
 }
 
 #footer-32 input[type=email]::placeholder {
@@ -652,7 +685,7 @@ a {
     position: static;
     margin-top: 10px;
     color: #fff;
-    background-color: #ff4880!important;
+    background-color: #ff4880;
     border-color: #ff4880;
     padding: .8125rem 2.5rem;
     font-size: .875rem;
@@ -672,7 +705,15 @@ a {
     right: 0;
     z-index: 99;
     height: 100%;
+    cursor: pointer;
 }
+
+#footer-32 input[type=submit]:hover {
+    transform: scale(1.1);
+    background-color: #ffae00;
+}
+
+
 
 .footer-lower {
     border-style: solid;
