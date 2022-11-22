@@ -629,11 +629,22 @@ a {
     padding-bottom: 12px;
     padding-left: 15px;
     padding-right: 0;
-    color: #858687;
+    color: #333;
     display: block;
     height: 50px;
     font-size: .875rem;
     line-height: 1.5;
+    font-weight: 500;
+}
+
+#footer-32 input[type=email]::placeholder {
+    color: #858687;
+    font-weight: 400;
+}
+
+#footer-32 input[type=email]::-ms-input-placeholderplaceholder {
+    color: #858687;
+    font-weight: 400;
 }
 
 #footer-32 input[type=submit] {
