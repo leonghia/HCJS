@@ -578,6 +578,27 @@ button {
     transition: all 500ms;
 }
 
+.cta-button {
+    color: #fff;
+    background-color: #ff4880;
+    border-color: #ff4880;
+    padding: .8125rem 2.5rem;
+    font-size: .875rem;
+    line-height: 1.6;
+    border-radius: 15px;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    letter-spacing: 0rem;
+}
 
 button.cta-button:hover {
     transform: scale(1.1);
@@ -732,4 +753,17 @@ button:hover {
 .footer-lower p {
     text-align: center;
     margin-top: 0;
+}
+
+.section-heading {
+    line-height: 1.2em;
+    font-size: 2.8rem;
+    color: #393d72;
+    position: relative;
+    letter-spacing: -.01em;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
 }
