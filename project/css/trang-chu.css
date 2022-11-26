@@ -92,27 +92,12 @@ p {
     text-transform: capitalize;
 }
 
+
 .catch-phrase-button {
     position: absolute;
     top: 260px;
-    background-color: rgb(255, 72, 128);
-    height: auto;
-    width: auto;
-    padding-left: 40px;
-    border-radius: 15px;
-    padding-right: 40px;
-    filter: blur(0px) grayscale(0%) brightness(100%);
-    opacity: 1;
-    visibility: visible;
 }
 
-.catch-phrase-button a {
-    text-transform: uppercase;
-    line-height: 50px;
-    font-weight: 600;
-    font-size: 13px;
-    color: rgb(255, 255, 255);
-}
 
 .slider {
     background-color: transparent;
@@ -1063,6 +1048,11 @@ section.contact-down {
     border: 1px solid transparent;
     letter-spacing: 0rem;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.contact-form-row input[type=submit]:hover {
+    transform: scale(1.1);
 }
 
 .contact-form-row input::placeholder, .contact-form-wrapper textarea::placeholder {
