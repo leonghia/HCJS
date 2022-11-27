@@ -1,0 +1,219 @@
+.nghia-container {
+    max-width: 1290px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.nghia-element-populated>.nghia-container {
+    margin-bottom: 4rem;
+}
+
+.nghia-container-col-1 {
+    width: 75%;
+}
+
+.nghia-container-col-2 {
+    width: 24.332%;
+}
+
+.nghia-element-populated {
+    padding: 0 50px 0 0;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.element-b401f1c {
+    width: 40%;
+}
+
+.element-b401f1c img {
+    border-radius: 15px;
+}
+
+.element-37c8d4d {
+    width: 59.973%;
+}
+
+.nghia-widget-wrap {
+    padding: 0 0 0 40px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.element-37c8d4d .nghia-heading-title {
+    font-size: 40px;
+    transform: rotate(0deg);
+}
+
+.nghia-heading-title {
+    color: #393d72;
+    position: relative;
+    letter-spacing: -.01em;
+    line-height: 1.2;
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+}
+
+.nghia-widget-wrap>p:nth-child(2) {
+    color: #ff4880;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.nghia-widget-wrap>p:nth-child(3), .nghia-widget-wrap>p:nth-child(4) {
+    line-height: 1.875em;
+    width: 100%;
+    font-weight: 500;
+}
+
+.nghia-element-populated>.nghia-heading-title {
+    font-size: 34px;
+    transform: rotate(0deg);
+    text-transform: capitalize;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.nghia-element-populated>.nghia-icon-list-items {
+    margin: 0 0 60px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nghia-icon-list-items .nghia-icon-list-item {
+    padding-bottom: calc(15px/2);
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.icon-list-text {
+    font-weight: 700;
+    color: #393d72;
+    padding-left: 5px;
+}
+
+.nghia-icon-list-item .icon-list-icon i {
+    color: #ff4880;
+    font-size: 14px;
+    line-height: 26px;
+    width: 1.25em;
+}
+
+.nghia-element-populated>p {
+    margin: 0;
+    margin-bottom: 3rem;
+    line-height: 1.875em;
+    font-weight: 500;
+}
+
+.nghia-container-col-2>.nghia-element-populated {
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    border-color: rgba(0,0,0,.07);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    padding: 0 0 0 30px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+
+.nghia-container-col-2 .nghia-heading-title {
+    font-size: 25px;
+    transform: rotate(0deg);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.nghia-container-col-2 .nghia-widget-container {
+    margin-bottom: 3rem;
+    width: 100%;
+    padding: 30px 30px 40px;
+    border-radius: 15px;
+    box-shadow: 1px 0px 11px 0px rgb(0 0 0 / 9%);
+    margin-top: 2rem;
+}
+
+.nghia-team-image {
+    border: none;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nghia-team-image img {
+    border-radius: 100%;
+    max-width: 100%;
+}
+
+.nghia-container-col-2 .nghia-team-name {
+    font-size: 17px;
+    line-height: 1.5em;
+    margin-bottom: .5rem;
+    letter-spacing: -.025em;
+    color: #393d72;
+    font-weight: 800;
+    text-align: center;
+}
+
+.nghia-container-col-2 .staff-social-icons {
+    grid-column-gap: 22px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.nghia-container-col-2 .staff-social-icons a {
+    font-size: 17px;
+}
+
+.nghia-video-popup {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 2rem;
+}
+
+.nghia-video-popup>.nghia-widget-container {
+    margin: 0 0 25px;
+    padding: 40px 0;
+    background-image: url(../images/home-1-06.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.nghia-video-popup .nghia-video-wrapper {
+    text-align: center;
+}
+
+.nghia-video-wrapper>a>i {
+    width: 80px;
+    height: 80px;
+    line-height: 70px;
+    color: #fff;
+    background: 0 0;
+    border: 5px solid rgba(255,255,255,.5);
+    font-size: 1.75rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    transition: all .3s ease;
+}
+
