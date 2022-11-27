@@ -1,0 +1,95 @@
+blockquote{
+    font-size: 18px;
+}
+.quote{
+    color: #393d72;
+    font-weight: 600
+}
+.blog-entry-footer{
+    width: 100%;
+    display: flex;
+    padding: 50px 0px;
+    border-bottom: 1px solid #ebebeb;
+}
+.tag_cloud-2{
+    width: 55%;
+}
+.social-share-block{
+    width: 45%;
+}
+td{
+    float: right;
+}
+.tagcloud a{
+    padding: 5px 5px;
+    background-color: #fff;
+    font-size: .8125rem !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    border-radius: 1em;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.social-share-block tbody tr td a i{
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 33px;
+    color: #fff;
+    background-color: #989898;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+.social-share-block tbody tr td a i:hover{
+    background-color: #ff4880;
+}
+.bl-site-main .bl-ul-post .item-post-media{
+    border-bottom: 0px solid white;
+    margin-top: 10px;
+}
+.bl-post-inner .bl-entry-header .bl-entry-meta{
+    margin-bottom: 25px;
+}
+.the-comment{
+    border-bottom: 1px solid #ebebeb;
+    padding-left: 7.5rem;
+    min-height: 7.5rem;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.comment-meta{
+    position: relative;
+}
+.comment-box{
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 1.5rem;
+}
+.comment-header h6{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.comment-metadata{
+    font-size: 14px;
+    line-height: 1.875rem;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.comment-text a{
+    color: #ff4880;
+}

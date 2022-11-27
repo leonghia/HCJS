@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 .blog-container{
-    width: 1320px;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
@@ -192,4 +191,10 @@ ul{
     border-radius: 1em;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+a:hover{
+    color: #ff4880;
+}
+h a:hover{
+    color: #ff4880;
 }
