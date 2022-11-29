@@ -2,13 +2,13 @@
 const showMenu = event => {
     let menu = event.target;
     let sub = menu.lastElementChild;
-    setTimeout(() => sub.style.display = 'block', 300);
+    sub.style.display = 'block';
 }
 
 const hideMenu = event => {
     let menu = event.target;
     let sub = menu.lastElementChild;
-    setTimeout(() => sub.style.display = 'none', 300);
+    sub.style.display = 'none';
 }
 
 
