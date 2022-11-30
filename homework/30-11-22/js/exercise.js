@@ -14,7 +14,7 @@ xhttp.onload = function() {
         // Add article element with class col-3
         const myArticle = document.createElement('article');
         myRow.appendChild(myArticle);
-        myArticle.classList.add('col-3');
+        myArticle.classList.add('col-12', 'col-xl-3');
 
         // Add div element with class card
         const myDiv1 = document.createElement('div');
