@@ -64,7 +64,7 @@ xhttp.onload = function() {
 xhttp.open("GET", "https://api.openweathermap.org/data/2.5/forecast?q=Hanoi,vietnam&appid=09a71427c59d38d6a34f89b47d75975c&units=metric");
 xhttp.send();
 
-// Other styling
+// Other stylings
 document.querySelector('div').style.paddingTop = '50px';
 document.querySelector('div').style.paddingBottom = '40px';
 const myDiv4 = document.createElement('div');
