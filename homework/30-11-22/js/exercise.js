@@ -20,7 +20,7 @@ xhttp.onload = function() {
         const myDiv1 = document.createElement('div');
         myArticle.appendChild(myDiv1);
         myDiv1.classList.add('card', 'text-bg-secondary', 'mb-3');
-        myDiv1.style.setProperty('background-color', 'RGBA(108,117,125,var(--bs-bg-opacity,.7))', 'important');
+        myDiv1.style.setProperty('background-color', 'RGBA(108,117,125,var(--bs-bg-opacity,.6))', 'important');
 
         // Add div element with class card body
         const myDiv2 = document.createElement('div');
@@ -43,11 +43,11 @@ xhttp.onload = function() {
         myDiv3.style.justifyContent = 'space-between';
         myDiv3.style.height = '60px';
 
-        // Add h3 element with temperature value
-        const myH3 = document.createElement('h3');
-        myDiv3.appendChild(myH3);
-        myH3.innerText = data.list[i].main.temp;
-        myH3.innerHTML += '<sup>o</sup>C';
+        // Add h2 element with temperature value
+        const myH2 = document.createElement('h2');
+        myDiv3.appendChild(myH2);
+        myH2.innerText = data.list[i].main.temp;
+        myH2.innerHTML += '<sup>o</sup>C';
 
         // Add icon image
         const myImage = document.createElement('img');
@@ -64,8 +64,13 @@ xhttp.onload = function() {
 xhttp.open("GET", "https://api.openweathermap.org/data/2.5/forecast?q=Hanoi,vietnam&appid=09a71427c59d38d6a34f89b47d75975c&units=metric");
 xhttp.send();
 
-// Set background image
-document.querySelector('div').style.backgroundImage = 'url(./images/background.jpg)';
+// Other styling
 document.querySelector('div').style.paddingTop = '50px';
-document.querySelector('div').style.paddingBottom = '50px';
+document.querySelector('div').style.paddingBottom = '40px';
+const myDiv4 = document.createElement('div');
+document.querySelector('footer').appendChild(myDiv4);
+myDiv4.setAttribute("style", "text-align:center;color: #fff;font-size:1.2rem");
+const myLink = document.createElement('a');
+myDiv4.appendChild(myLink);
+myLink.innerHTML = 'Crafted by <a href="https://github.com/leonghia/HCJS/tree/master/homework/30-11-22" target="_blank" style="text-decoration:none;color:aqua;"><b>Leo Nghia</b></a> 🧡'
 
