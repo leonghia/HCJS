@@ -1,14 +1,19 @@
 // Get JSON from web API
-let xhttp = new XMLHttpRequest();
-xhttp.onload = function() {
+const currentWeather = () => {
+    let para = document.querySelector('input').value;
+    let xhttp = new XMLHttpRequest();
+
+xhttp.onload = function () {
     // Transform JSON into object/array
     let result = this.responseText;
     let data = JSON.parse(result);
     
-    // Working with the object/array 
+    // Working with the object/array
     console.log(data);
     const container = document.querySelector('.container');
     const myRow = document.querySelector('.row');
+
+    myRow.innerHTML = "";
 
     for (let i = 0; i < data.list.length; i++) {
         // Add article element with class col-3
@@ -61,8 +66,13 @@ xhttp.onload = function() {
     }
 }
 
-xhttp.open("GET", "https://api.openweathermap.org/data/2.5/forecast?q=Hanoi,vietnam&appid=09a71427c59d38d6a34f89b47d75975c&units=metric");
+xhttp.open("GET", `https://api.openweathermap.org/data/2.5/forecast?q=${para},vietnam&appid=09a71427c59d38d6a34f89b47d75975c&units=metric`);
+
 xhttp.send();
+
+}
+
+currentWeather();
 
 // Other stylings
 document.querySelector('div').style.paddingTop = '50px';
