@@ -853,6 +853,7 @@ ul.sub-menu {
     background-color: #fff;
     box-shadow: 0 0 6px rgb(0 0 0 / 20%);
     top: calc(100% + 40px);
+    z-index: 999;
 }
 
 li.sub-menu-item {

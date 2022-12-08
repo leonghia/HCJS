@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Trang chủ - Pet Care VN</title>
     <!-- Load template CSS -->
-    <link rel="stylesheet" href="css/template.css" type="text/css">
-    <!-- Load your CSS here -->
-    <link rel="stylesheet" href="css/trang-chu.css" type="text/css">
+    <link rel="stylesheet" href="./css/template.css" type="text/css">
+    <!-- LINK FILE CSS CUA BAN VAO DAY -->
+    <link rel="stylesheet" href="./css/trang-chu.css" type="text/css">
+    <!-- Load template Javascript -->
+    <script src="./js/all.js" type="text/javascript" defer></script>
     <!-- Load CSS file to reset user-agent stylesheet -->
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="./css/normalize.css" type="text/css">
     <!-- Load FontAwesome 5 Free -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        type="text/css">
     <!-- Load FontAwesome 5 Pro -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css" type="text/css">
 </head>
+
 <body>
     <div class="body-inner">
         <!-- HEADER STARTS HERE -->
@@ -76,37 +81,71 @@
                             <nav class="menu">
                                 <ul class="menu-items">
                                     <li class="menu-item">
-                                        <a href="trang-chu.html" class="menu-item-link active">
+                                        <a href="" class="menu-item-link active">
                                             Trang chủ
-                                            <span class="sub-arrow"></span>
                                         </a>
                                     </li>
-                                    <li class="menu-item">
+                                    <li class="menu-item" onmouseenter="showMenu(event)" onmouseleave="hideMenu(event)">
                                         <a href="" class="menu-item-link">
                                             Giới thiệu
                                             <span class="sub-arrow"></span>
                                         </a>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu-item">
+                                                <a href="" target="_blank" class="sub-menu-item-link">Về công ty</a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a href="" target="_blank" class="sub-menu-item-link">Đội ngũ NV</a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a href="" target="_blank" class="sub-menu-item-link">NV tiêu biểu</a>
+                                            </li>
+                                        </ul>
                                     </li>
-                                    <li class="menu-item">
+                                    <li class="menu-item" onmouseenter="showMenu(event)" onmouseleave="hideMenu(event)">
                                         <a href="" class="menu-item-link">
                                             Dịch vụ
                                             <span class="sub-arrow"></span>
                                         </a>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu-item">
+                                                <a href="" target="_blank" class="sub-menu-item-link">Danh mục DV</a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a href="" target="_blank" class="sub-menu-item-link">DV cụ thể</a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a href="" target="_blank" class="sub-menu-item-link">Bảng giá</a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a href="" target="_blank" class="sub-menu-item-link">Câu hỏi thường gặp</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="tuyen-dung.html" class="menu-item-link">
+                                        <a href="" class="menu-item-link">
                                             Tuyển dụng
-                                            <span class="sub-arrow"></span>
                                         </a>
                                     </li>
-                                    <li class="menu-item">
-                                        <a href="baiviet.html" class="menu-item-link">
+                                    <li class="menu-item" onmouseenter="showMenu(event)" onmouseleave="hideMenu(event)">
+                                        <a href="" class="menu-item-link">
                                             Blog
                                             <span class="sub-arrow"></span>
                                         </a>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu-item">
+                                                <a href="" target="_blank" class="sub-menu-item-link">Tất cả bài viết</a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a href="" target="_blank" class="sub-menu-item-link">Bài viết mới</a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a href="" target="_blank" class="sub-menu-item-link">Album hình</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="lienhe.html" class="menu-item-link">Liên hệ</a>
+                                        <a href="" class="menu-item-link">Liên hệ</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -521,22 +560,22 @@ c-30.14,170.07,266.27,253.45,389.84,175.18c78.22-49.54,203.58-206.77,205.54-299.
 
                 <!-- STATISTICS SECTION STARTS HERE -->
                 <section class="statistics">
-                    <div class="statistics-container">
+                    <div class="statistics-container" id="statistics">
                         <div class="statistics-col">
                             <div class="icon-counter"> <i class="far fa-users"></i></div>
-                            <div class="counter-wrapper"><div class="counter-number-wrapper"> <span class="counter-number">730</span> <span class="counter-number-suffix">+</span></div><div class="counter-title">Khách hàng hài lòng</div></div>
+                            <div class="counter-wrapper"><div class="counter-number-wrapper"> <span class="counter-number" id="counter-1"></span> <span class="counter-number-suffix">+</span></div><div class="counter-title">Khách hàng hài lòng</div></div>
                         </div>
                         <div class="statistics-col">
                             <div class="icon-counter"> <i class="fal fa-award"></i></div>
-                            <div class="counter-wrapper"><div class="counter-number-wrapper"> <span class="counter-number">80</span> <span class="counter-number-suffix">+</span></div><div class="counter-title">Chuyên gia</div></div>
+                            <div class="counter-wrapper"><div class="counter-number-wrapper"> <span class="counter-number" id="counter-2"></span> <span class="counter-number-suffix">+</span></div><div class="counter-title">Chuyên gia</div></div>
                         </div>
                         <div class="statistics-col">
                             <div class="icon-counter"> <i class="fal fa-paw"></i></div>
-                            <div class="counter-wrapper"><div class="counter-number-wrapper"> <span class="counter-number">920</span> <span class="counter-number-suffix">+</span></div><div class="counter-title">Thú cưng</div></div>
+                            <div class="counter-wrapper"><div class="counter-number-wrapper"> <span class="counter-number" id="counter-3"></span> <span class="counter-number-suffix">+</span></div><div class="counter-title">Thú cưng</div></div>
                         </div>
                         <div class="statistics-col">
                             <div class="icon-counter"> <i class="fal fa-trophy-alt"></i></div>
-                            <div class="counter-wrapper"><div class="counter-number-wrapper"> <span class="counter-number">75</span> <span class="counter-number-suffix">+</span></div><div class="counter-title">Giải thưởng</div></div>
+                            <div class="counter-wrapper"><div class="counter-number-wrapper"> <span class="counter-number" id="counter-4"></span> <span class="counter-number-suffix">+</span></div><div class="counter-title">Giải thưởng</div></div>
                         </div>
                     </div>
                 </section>
@@ -646,19 +685,20 @@ c-30.14,170.07,266.27,253.45,389.84,175.18c78.22-49.54,203.58-206.77,205.54-299.
                         <div id="footer-12">
                             <ul>
                                 <li>
-                                    <span class="icon-list-icon"> <i aria-hidden="true" class="fas fa-phone-alt"></i> </span>
-
+                                    <span class="icon-list-icon"> <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                    </span>
                                     <span class="icon-list-text">(+1800) 456-789</span>
                                 </li>
                                 <li>
-                                    <span class="icon-list-icon"> <i aria-hidden="true" class="far fa-envelope"></i> </span>
-
+                                    <span class="icon-list-icon"> <i aria-hidden="true" class="far fa-envelope"></i>
+                                    </span>
                                     <span class="icon-list-text">hotro@petcare.com</span>
                                 </li>
                                 <li>
-                                    <span class="icon-list-icon"> <i aria-hidden="true" class="fas fa-map-marker-alt"></i> </span>
-
-                                    <span class="icon-list-text">Số 8A Tôn Thất Thuyết, Mỹ Đình, Nam Từ Liêm, Hà Nội</span>
+                                    <span class="icon-list-icon"> <i aria-hidden="true"
+                                            class="fas fa-map-marker-alt"></i> </span>
+                                    <span class="icon-list-text">Số 8A Tôn Thất Thuyết, Mỹ Đình, Nam Từ Liêm, Hà
+                                        Nội</span>
                                 </li>
                             </ul>
                         </div>
@@ -674,7 +714,9 @@ c-30.14,170.07,266.27,253.45,389.84,175.18c78.22-49.54,203.58-206.77,205.54-299.
                         </div>
                     </article>
                     <article class="footer-col">
-                        <div id="footer-31"><h3>Bản tin</h3></div>
+                        <div id="footer-31">
+                            <h3>Bản tin</h3>
+                        </div>
                         <div id="footer-32">
                             <form action="" method="POST">
                                 <input type="email" name="email" placeholder="Nhập email của bạn...." required>
@@ -684,11 +726,13 @@ c-30.14,170.07,266.27,253.45,389.84,175.18c78.22-49.54,203.58-206.77,205.54-299.
                     </article>
                 </section>
                 <section class="footer-lower">
-                    <p>Copyright © 2022. All Rights Reserved. Carefully crafted by <a style="color: #ff4880;" href="https://github.com/leonghia" target="_blank">Leo Nghia</a>.</p>
+                    <p>Copyright © 2022. All Rights Reserved. Carefully crafted by <a style="color: #ff4880;"
+                            href="https://github.com/leonghia" target="_blank">Leo Nghia</a>.</p>
                 </section>
             </div>
         </footer>
         <!-- END OF FOOTER -->
     </div>
 </body>
+
 </html>
