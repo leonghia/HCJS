@@ -1,28 +1,28 @@
 body {
-    background-color: aquamarine;
+    background-color: #11998e;
 }
 
 .my-form {
-    margin: 10rem auto;
+    margin: 5rem auto;
     background-color: #fff;
-    width: 600px;
-    height: 1000px;
+    width: 450px;
 }
 
 header {
-    height: 200px;
+    height: 120px;
     background-color: #6a3093;
 }
 
 .heading-icon {
     height: 60%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading-icon i {
     color: #fff;
-    font-size: 4rem;
-    margin-top: 3rem;
+    font-size: 2rem;
 }
 
 .heading-text {
@@ -30,7 +30,101 @@ header {
     text-align: center;
 }
 
-.heading-text h1 {
+.heading-text h2 {
     text-transform: uppercase;
     color: #fff;
 }
+
+.main-wrap {
+    padding: 4rem 4rem 1rem;
+    background-color: #fff;
+}
+
+.my-row {
+    margin-bottom: 1.5rem;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-row.input-checkbox {
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.my-row input {
+    background-color: #dfdede;
+    border: none;
+    padding-left: 3rem;
+    width: 85%;
+    height: 100%;
+}
+
+.my-row input:focus-visible {
+    outline: none;
+}
+
+.input-icon {
+    background-color: #6a3093;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+}
+
+.input-icon i {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+    margin-left: 8px;
+}
+
+.my-row>label>a {
+    color: #6a3093;
+    text-decoration: none;
+}
+
+.my-row label {
+    margin-left: 1rem;
+    color: #878787;
+    font-weight: 500;
+}
+
+button.my-button:hover {
+    background-color: #333;
+}
+
+button.my-button {
+    background-color: #6a3093;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    padding: .7rem;
+    font-size: 1.3rem;
+}
+
+p {
+    color: #878787;
+    font-weight: 500;
+}
+
+.my-row>p>a {
+    text-decoration: none;
+    color: #626262;
+}
+
+

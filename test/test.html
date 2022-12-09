@@ -23,13 +23,51 @@
     <div class="my-form">
         <header>
             <div class="heading-icon">
-                <i class="fal fa-address-card"></i>
+                <i class="fal fa-money-check-edit"></i>
             </div>
             <div class="heading-text">
-                <h1>Register</h1>
+                <h2>Register</h2>
             </div>
         </header>
-        <main></main>
+        <main>
+            <div class="main-wrap">
+                <form action="" method="GET">
+                    <div class="my-row">
+                        <div class="input-icon">
+                            <i class="fal fa-user"></i>
+                        </div>
+                        <input type="text" id="username" name="username" placeholder="Username" required minlength="5" maxlength="15">
+                    </div>
+                    <div class="my-row">
+                        <div class="input-icon">
+                            <i class="fal fa-lock-alt"></i>
+                        </div>
+                        <input type="password" id="pw-1" name="pw-1" placeholder="......." required minlength="5" maxlength="15">
+                    </div>
+                    <div class="my-row">
+                        <div class="input-icon">
+                            <i class="fal fa-lock-alt"></i>
+                        </div>
+                        <input type="password" id="pw-2" name="pw-2" placeholder="............" required minlength="5" maxlength="15">
+                    </div>
+                    <div class="my-row">
+                        <div class="input-icon">
+                            <i class="fal fa-envelope"></i>
+                        </div>
+                        <input type="email" id="email" name="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="my-row input-checkbox">
+                        <input type="checkbox" name="agree" value="yes" id="agree" required>
+                        <label for="agree">I agree to the <a href="" target="_blank">Terms of Service</a></label>
+                    </div>
+                    <div class="my-row">
+                        <button class="my-button" type="submit">SIGN UP</button>
+                    </div>
+                    <div class="my-row"><p>Already a member? <a href="">Login Here</a></p></div>
+                    
+                </form>
+            </div>
+        </main>
     </div>
 </body>
 
