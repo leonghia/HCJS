@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Album - Pet Care VN</title>
+    <!-- Load template CSS -->
+    <link rel="stylesheet" href="css/template.css" type="text/css">
+
+    <!-- LINK FILE CSS CUA BAN VAO DAY -->
+<link rel="stylesheet" href="css/album.css">
+    <!-- Load template Javascript -->
+    <script src="./js/all.js" type="text/javascript"></script>
+    <!-- Load CSS file to reset user-agent stylesheet -->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <!-- Load FontAwesome 5 Free -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          type="text/css">
+    <!-- Load FontAwesome 5 Pro -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="body-inner">
+    <!-- HEADER STARTS HERE -->
+    <header>
+        <div class="header-container">
+            <section class="upper-bar">
+                <div class="upper-bar-inner">
+                    <div class="upper-bar-inner-left">
+                        <ul class="icon-list-items">
+                            <li class="icon-list-item">
+                                <span class="icon-list-text">Chào mừng bạn đến Pet Care !</span>
+                            </li>
+                            <li class="icon-list-item">
+                                    <span class="icon-list-icon">
+                                        <i aria-hidden="true" class="far fa-envelope"></i>
+                                    </span>
+                                <span class="icon-list-text">hotro@petcare.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="upper-bar-inner-right">
+                        <div class="social-icons-wrapper">
+                            <div class="grid-item">
+                                <a class="social-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a class="social-icon">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a class="social-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a class="social-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="lower-bar">
+                <div class="lower-bar-inner">
+                    <div class="logo-container">
+                        <a href="">
+                            <img src="images/logo.svg" class="logo-image">
+                        </a>
+                    </div>
+                    <div class="menu-container">
+                        <nav class="menu">
+                            <ul class="menu-items">
+                                <li class="menu-item">
+                                    <a href="" class="menu-item-link active">
+                                        Trang chủ
+                                    </a>
+                                </li>
+                                <li class="menu-item" onmouseenter="showMenu(event)" onmouseleave="hideMenu(event)">
+                                    <a href="" class="menu-item-link">
+                                        Giới thiệu
+                                        <span class="sub-arrow"></span>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-menu-item">
+                                            <a href="" target="_blank" class="sub-menu-item-link">Về công ty</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="" target="_blank" class="sub-menu-item-link">Đội ngũ NV</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="" target="_blank" class="sub-menu-item-link">NV tiêu biểu</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item" onmouseenter="showMenu(event)" onmouseleave="hideMenu(event)">
+                                    <a href="" class="menu-item-link">
+                                        Dịch vụ
+                                        <span class="sub-arrow"></span>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-menu-item">
+                                            <a href="" target="_blank" class="sub-menu-item-link">Danh mục DV</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="" target="_blank" class="sub-menu-item-link">DV cụ thể</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="" target="_blank" class="sub-menu-item-link">Bảng giá</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="" target="_blank" class="sub-menu-item-link">Câu hỏi thường gặp</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-item-link">
+                                        Tuyển dụng
+                                    </a>
+                                </li>
+                                <li class="menu-item" onmouseenter="showMenu(event)" onmouseleave="hideMenu(event)">
+                                    <a href="" class="menu-item-link">
+                                        Blog
+                                        <span class="sub-arrow"></span>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-menu-item">
+                                            <a href="" target="_blank" class="sub-menu-item-link">Tất cả bài viết</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="" target="_blank" class="sub-menu-item-link">Bài viết mới</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="" target="_blank" class="sub-menu-item-link">Album hình</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-item-link">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="remain-container">
+                        <div class="remain">
+                            <div class="search-icon">
+                                <i class="fal fa-search"></i>
+                            </div>
+                            <div class="cart-icon">
+                                <i class="fal fa-shopping-cart"></i>
+                                <span class="title"></span>
+                                <span class="count">0 </span>
+                            </div>
+                            <div class="tel">
+                                <a href="">
+                                        <span class="tel-button-wrapper">
+                                            <span class="tel-icon">
+                                                <i class="fal fa-phone-volume"></i>
+                                            </span>
+                                            <span class="tel-button-text">+1800 – 1355 777</span>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- MAIN STARTS HERE -->
+    <main>
+        <div class="album">
+            <h1>Album hình</h1>
+            <h3><a href="https://leonghia.herokuapp.com/project/trang-chu.html" >Petzen</a> / <span>Album hình</span></h3>
+        </div >
+    </main>
+    <header>
+        <div class="container">
+            <section>
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-1.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-2.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-2.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-3.jpg"/>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-4.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-5.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-6.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-7.jpg"/>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-8.png"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-9.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-10.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-11.jpg"/>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-12.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-3.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-1.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-6.jpg"/>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-8.png"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-12.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-2.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-5.jpg"/>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-9.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-4.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-11.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-7.jpg"/>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-10.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-1.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-4.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-7.jpg"/>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-10.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-2.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-5.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-8.png"/>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-11.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-3.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-6.jpg"/>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <img class="img-fluid" src="images/album1-9.jpg"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+    <nav>
+        <div class="container-fluid">
+
+        </div>
+    </nav>
+    <div class="image-big">
+        <div class="image-small">
+
+        </div>
+    </div>
+    <!-- END OF MAIN -->
+
+    <!-- FOOTER STARTS HERE -->
+    <footer>
+        <div class="footer-container">
+            <section class="footer-upper">
+                <article class="footer-col">
+                    <div id="footer-01">
+                        <a href=""><img src="images/logo.svg"></a>
+                    </div>
+                    <div id="footer-02">
+                        <p>Lorem ipsum dolor sit amet, elit.<br>Aenean ligula eget dolor.</p>
+                    </div>
+                    <div id="footer-03">
+                        <a><i class="fab fa-twitter"></i></a>
+                        <a><i class="fab fa-facebook-f"></i></a>
+                        <a><i class="fab fa-instagram"></i></a>
+                        <a><i class="fab fa-youtube"></i></a>
+                    </div>
+                </article>
+                <article class="footer-col">
+                    <div id="footer-11">
+                        <h3>Liên hệ</h3>
+                    </div>
+                    <div id="footer-12">
+                        <ul>
+                            <li>
+                                    <span class="icon-list-icon"> <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                    </span>
+                                <span class="icon-list-text">(+1800) 456-789</span>
+                            </li>
+                            <li>
+                                    <span class="icon-list-icon"> <i aria-hidden="true" class="far fa-envelope"></i>
+                                    </span>
+                                <span class="icon-list-text">hotro@petcare.com</span>
+                            </li>
+                            <li>
+                                    <span class="icon-list-icon"> <i aria-hidden="true"
+                                                                     class="fas fa-map-marker-alt"></i> </span>
+                                <span class="icon-list-text">Số 8A Tôn Thất Thuyết, Mỹ Đình, Nam Từ Liêm, Hà
+                                        Nội</span>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="footer-col">
+                    <div id="footer-21">
+                        <h3>Giờ làm việc</h3>
+                    </div>
+                    <div id="footer-22">
+                        <p>Thứ Hai đến thứ Sáu</p>
+                        <p>Mở cửa từ 9am – 6pm</p>
+                        <p>Dịp lễ/ Cuối tuần - Đóng cửa</p>
+                    </div>
+                </article>
+                <article class="footer-col">
+                    <div id="footer-31">
+                        <h3>Bản tin</h3>
+                    </div>
+                    <div id="footer-32">
+                        <form action="" method="POST">
+                            <input type="email" name="email" placeholder="Nhập email của bạn...." required>
+                            <button type="submit" value="Đăng ký ngay" class="cta-button">Đăng ký ngay</button>
+                        </form>
+                    </div>
+                </article>
+            </section>
+            <section class="footer-lower">
+                <p>Copyright © 2022. All Rights Reserved. Carefully crafted by <a style="color: #ff4880;"
+                                                                                  href="https://github.com/leonghia" target="_blank">Leo Nghia</a>.</p>
+            </section>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+</div>
+</body>
+
+</html>
